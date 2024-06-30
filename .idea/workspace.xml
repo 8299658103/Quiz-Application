@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c2a700-0484-4054-adff-b2033a3aea39" name="Changes" comment="First Commit" />
+    <list default="true" id="f3c2a700-0484-4054-adff-b2033a3aea39" name="Changes" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Icons/image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Icons/image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QUIZ/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QUIZ/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QUIZ/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QUIZ/Quiz.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +37,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Login.executor": "Run",
+    "Application.Quiz.executor": "Run",
     "Application.Rules.executor": "Run",
     "Application.Score.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Quiz" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quiz.application.Quiz" />
+      <module name="QUIZProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quiz.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

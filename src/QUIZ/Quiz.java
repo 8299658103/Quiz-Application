@@ -29,7 +29,7 @@ public class Quiz extends JFrame implements ActionListener {
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/image.jpeg"));
         JLabel image = new JLabel(i1);
-        image.setBounds(0, 0, 1440, 392);
+        image.setBounds(0, 0, 1440, 450);
         add(image);
 
         qno = new JLabel();
@@ -275,7 +275,7 @@ public class Quiz extends JFrame implements ActionListener {
                     }
                 }
                 setVisible(false);
-                new quiz.application.Score(name, score);
+                new Score(name, score);
             } else { // next button
                 if (groupoptions.getSelection() == null) {
                     useranswers[count][0] = "";

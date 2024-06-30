@@ -58,7 +58,7 @@ public class Login extends JFrame implements ActionListener{
         if (ae.getSource() == rules) {
             String name = tfname.getText();
             setVisible(false);
-            new quiz.application.Rules(name);
+            new Rules(name);
         } else if (ae.getSource() == back) {
             setVisible(false);
         }
